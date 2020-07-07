@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .container
+        {
+            /* border: 1px solid brown; */
+            margin: 0;
+            height: 500px;
+            width:100%;
+            background-image: url('bgimg1.jfif');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+        }
+
+        #contactus
+        {
+            /* border: 1px solid red; */
+            text-align: center;
+        }
+        
+        #controls
+        {
+            /* border: 1px solid green; */
+            /* align-items: center; */
+        }
+
+        input[type='submit']
+        {
+            background-color: #58D68D;
+           
+        }
+
+        input[type='reset']
+        {
+            background-color: #F5EEF8;
+            
+        }
+
+        input[type='submit'],input[type='reset']
+        {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+            <div id="contactus">
+                    <h1>Contact Us</h1>
+            </div>
+            <div id="controls">
+                <table align="center">
+                    <tr>
+                        <td>
+                            <label for="">User Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Contact</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="" id="">
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Message</label>
+                        </td>
+                        <td>
+                           <textarea name="" id="" cols="20" rows="6"></textarea>
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                        <td><input type="reset" value="Clear"></td>
+                    </tr>     
+                </table>
+            </div>
+    </section>
+</body>
+</html>

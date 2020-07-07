@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container
+        {
+            background-color: burlywood;
+            height: 80vh;
+            display: flex;   
+            /* background-position: center center;  */
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box{
+            background-color: chocolate;
+            border: 2px solid black;
+            height: 200px;
+            width:200px;
+            /* margin-top: 20px; */
+            border-radius: 8px;
+            /* transform:rotate(45deg); */
+            /* transition: ease-in-out; */
+            /* transition: ease-out; */
+            /* transition: ease; */
+            /* transition: ease-in; */
+             transition: all 1.5s ease-in-out; 
+
+        }
+
+        #box:hover{
+            /* transform: rotate(45deg); */
+            /* transform: skew(40deg); */
+            /* transform: skewX(10deg); */
+            /* transform: skewY(20deg); */
+            /* transform: scale(2); */
+            /* transform: translateX(150px); */
+            /* transform: translateY(-150px); */
+            transform: translate(120px,120px);
+        }
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <div id="box">
+            This is my BOX
+        </div>
+    </div>
+
+
+</body>
+</html>

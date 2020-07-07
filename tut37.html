@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* *{
+            margin: 0px;
+            padding: 0px;
+        } */
+        #box{
+           background-color: red;
+           width: 100px;
+           height: 100px; 
+           animation-name: boxanimation;  
+           animation-duration: 5s;
+           position: relative;
+           animation-iteration-count: infinite;
+           /* animation-direction: normal; */
+           /* animation-direction: reverse; */
+           /* animation-direction: alternate; */
+           /* animation-direction: alternate-reverse; */
+
+           /* animation-timing-function: ease; */
+           /* animation-timing-function: linear; */
+           /* animation-timing-function: ease-in;  */
+           /* animation-timing-function: ease-out;  */
+           /* animation-timing-function: ease-in-out; */
+           /* animation-timing-function: cubic-bezier(0.31, 0.87, 0.66, 1.1); */
+
+           /* animation-fill-mode: none;      */
+           /* animation-fill-mode: forwards; */
+           animation-fill-mode: both;
+
+        }
+
+        @keyframes boxanimation
+        {
+            0%{background-color: red;left: 0px;top:0px;}
+
+            /* 25%{background-color: #A569BD;  left : 200px;top: 0px; }
+
+            50% {background-color: #5DADE2;left:200px;top:200px;}
+
+            75%{background-color: #1ABC9C; left: 0px;top: 200px;} */
+
+            100% {background-color: blue; left:200px;top: 0px;}                
+
+        }
+
+    </style>
+
+</head>
+<body>
+    
+      <div id="box"></div>  
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            margin-top: 20px;
+        }
+
+        /* a:link{
+            color:red;
+        } */
+
+        #google
+        {
+            color: red;
+        }
+
+        #wc
+        {
+            color:green;
+        }
+
+        #yahoo
+        {
+            color: lightcoral;
+        }
+        /*pseudo class*/
+        .links
+        {
+            border: 1px solid black;
+            padding:10px;
+            margin:20px;
+            border-radius: 10px;
+           
+        }
+        .links:hover{
+            background-color: lightslategray;
+            color:white;
+            box-shadow: 0px -1px 25px 0px rgba(0,0,0,0.75);
+        }
+        
+       #firstdiv
+       {
+           /* margin-top:20px; */
+           border: 1px solid black;
+           height:200px;
+           width: 80%;
+           margin: 35px auto;
+           text-align: center;
+       }
+
+       #firstdiv  div:first-letter
+       {
+           color:red;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <a href="#" id="google"  class="links">Google.com</a>
+        <a href="#" id="fb" class="links">Facebook.com</a>
+        <a href="#" id="wc" class="links">W3c.org</a>
+        <a href="#" id="yahoo" class="links">yahoo.com</a>
+    </div>
+
+      <div id="firstdiv">
+            <div>
+                Welcome To TechZone
+                <div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam odit voluptatibus incidunt officiis amet recusandae, eos est exercitationem eum rem tempora. Quas libero eveniet nostrum quam? Laboriosam ratione adipisci earum?
+                </div>
+            </div>
+      </div>
+    
+</body>
+</html>
